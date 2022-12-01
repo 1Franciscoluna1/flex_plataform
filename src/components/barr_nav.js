@@ -3,20 +3,20 @@ import { Link } from "react-router-dom"
 export default function barr_nav() {
     return (
                 <div className="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-        <nav className="ms-4 m-lg-2">
-            <Link className="navbar-brand" to={"/home"}>"USER_NAME"</Link>
+        <nav className="ms-4">
+            <Link className="navbar-brand" to={"/home"}>Jose Francisco</Link>
         </nav>
             <ul className="navbar-nav">
-                <li className="nav-item active m-2">
+                <li className="nav-item active mx-2">
                     <Link className="nav-link" to={"/metrics"}>Metricos</Link>
                 </li>
-                <li className="nav-item active m-2">
-                    <Link className="nav-link" to={"/addTLA"}>Agregar TLA</Link>
+                <li className="nav-item active mx-2">
+                    <Link className="nav-link" to={"/add_TLA"}>Agregar TLA</Link>
                 </li>
-                <li className="nav-item active m-2">
-                    <Link className="nav-link" to={"/addPCB"}>Agregar PCB</Link>
+                <li className="nav-item active mx-2">
+                    <Link className="nav-link" to={"/add_PCB"}>Agregar PCB</Link>
                 </li>
-                <li className="nav-item active m-2">
+                <li className="nav-item active mx-2">
                     <Link className="nav-link" to={"/Concentrado"}>Concentrado</Link>
                 </li>
             </ul>
